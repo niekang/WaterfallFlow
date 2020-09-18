@@ -217,6 +217,7 @@
 				TargetAttributes = {
 					82267AD41E289B34009E9755 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y2GHWQ732Y;
 						ProvisioningStyle = Automatic;
 					};
 					82267AED1E289B34009E9755 = {
@@ -238,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -438,10 +440,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y2GHWQ732Y;
 				INFOPLIST_FILE = WaterfallFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.WaterfallFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.mtdzDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -450,10 +453,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y2GHWQ732Y;
 				INFOPLIST_FILE = WaterfallFlow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.WaterfallFlow;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meitu.mtdzDemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
